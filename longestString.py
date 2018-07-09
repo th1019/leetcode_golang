@@ -6,10 +6,10 @@ class Solution(object):
         location = dict()
         letters = list(string.ascii_letters)
         i_start =0
-        l_string=s[0]
 
         if len(s) == 0:
             return 0
+        l_string=s[0]
         for i in range(len(s)):
             if s[i] not in letters:
                 continue
